@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4ede1"><title>Jarras del Alba</title><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head>
+<body>
+<main>
+  <header><a class="brand" href="https://mitchell-castillo.github.io/daily-games/">← Un juego cada día</a><span class="edition">03 NOV 2026 · PUZLE DE MEDIDAS</span></header>
+  <section class="intro"><div><p class="eyebrow">UN POCO DE AGUA. UN POCO DE INGENIO.</p><h1>Jarras del <em>Alba</em></h1><p class="subtitle">Llena, vierte, vacía. Encuentra la medida exacta.</p></div><div class="sun" aria-hidden="true"><span></span></div></section>
+  <div class="layout">
+    <section class="game" aria-labelledby="level-title">
+      <div class="game-heading"><div><p id="level-number" class="eyebrow"></p><h2 id="level-title"></h2><p id="level-note"></p></div><span id="count" class="counter"></span></div>
+      <div class="goal"><span>OBJETIVO</span><strong id="target"></strong></div>
+      <p id="pour-tip" class="pour-tip">Pulsa una jarra con agua y después otra para verter.</p>
+      <div id="board" class="board" aria-label="Jarras y controles"></div>
+      <div class="toolbar"><button id="undo" type="button">↶ Deshacer <kbd>Z</kbd></button><button id="reset" type="button">Reiniciar reto</button><button id="next" type="button" class="primary">Siguiente →</button></div>
+      <p id="status" role="status" aria-live="polite" aria-atomic="true"></p>
+    </section>
+    <aside aria-label="Retos e instrucciones">
+      <div class="collection"><div class="aside-title"><h2>Seis amaneceres</h2><span id="progress"></span></div><nav id="levels" aria-label="Elegir reto"></nav><p class="small">Todos están disponibles. Cambiar de reto reinicia el recorrido; tus logros se conservan.</p></div>
+      <details id="help"><summary>Cómo se juega</summary><ol><li><b>Llenar</b> lleva una jarra a su capacidad máxima. La fuente es ilimitada.</li><li><b>Verter</b> mueve agua hasta que el origen se vacía o el destino se llena. No puedes detenerlo a mitad.</li><li><b>Vaciar</b> retira toda el agua de esa jarra.</li><li>Consigue la cantidad objetivo en <b>cada</b> jarra a la vez.</li></ol><p>Sin reloj ni límite de intentos. Deshacer conserva los logros. Las unidades son abstractas: no necesitas medir agua real.</p><p><b>Teclado:</b> Tab y Enter/Espacio activan botones. 1–3 seleccionan jarras para verter, Z deshace y Escape cancela la selección. Los atajos no funcionan dentro de esta ayuda ni de los diálogos.</p></details>
+    </aside>
+  </div>
+  <footer><p id="storage">Tu progreso se guarda solo en este navegador. Sin cuentas ni seguimiento.</p><button id="clear" type="button" class="text-button">Borrar mi progreso</button></footer>
+</main>
+<dialog id="confirm" aria-labelledby="confirm-title" aria-describedby="confirm-text"><form method="dialog"><p class="eyebrow">UN MOMENTO</p><h2 id="confirm-title"></h2><p id="confirm-text"></p><div class="dialog-actions"><button value="no" autofocus>Cancelar</button><button value="yes" class="primary">Confirmar</button></div></form></dialog>
+<script type="module" src="app.js"></script>
+</body></html>
