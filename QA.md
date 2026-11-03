@@ -26,7 +26,7 @@
 
 - **Los iframes estrechos no son dispositivos móviles ni emulación táctil.** No se probaron móvil físico, táctil, zoom, lectores de pantalla, Safari/Firefox ni red de producción. No se afirma una certificación de accesibilidad.
 - Reinicio y borrado confirmados, errores de almacenamiento y cuota solo se probaron con datos sintéticos en DOM simulado. En navegador real se probaron las cancelaciones, no la eliminación del progreso.
-- No CI remoto, publicación, repositorio creado, GitHub Pages ni integración visible en catálogo.
+- Estado a las 19:11 UTC: todavía sin publicación. Actualización 20:19 UTC: repositorio público creado; Validate 41710969847 y Pages 41711163478 completados con éxito para 3f6e72d281176d35512b19aaa094fe157ede6af5. Integración en catálogo y smoke visual de producción todavía pendientes en esta actualización.
 - Un primer intento local a las 18:07 UTC falló por conexión rechazada antes de jugar; quedó superado por el preview privado verificado arriba, sin cambiar seguridad ni usar entrada global.
 
 ## Recorrido de QA reproducible

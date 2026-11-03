@@ -1,1 +1,23 @@
-{"id":"jarras-del-alba","title":"Jarras del Alba","subtitle":"Encuentra la medida exacta.","date":"2026-11-03","timezone":"America/Santo_Domingo","category":"puzles","tags":["Medidas","Trasvases","Sin prisas"],"levels":6,"levelLabel":"amaneceres","duration":"10–20 min","status":"prepared-private","href":null,"repository":null,"cover":"assets/cover.svg","storageKey":"daily-games:jarras-del-alba:v1","mechanic":"Llenar, vaciar y trasvasar agua entre jarras de capacidades distintas hasta conseguir todas las cantidades objetivo.","uniqueness":"Mecánica clásica distinta de las dieciséis entregas anteriores; seis retos seleccionados y comprobados mediante búsqueda exhaustiva independiente. No se afirma inventar la mecánica."}
+{
+  "id": "jarras-del-alba",
+  "title": "Jarras del Alba",
+  "subtitle": "Encuentra la medida exacta.",
+  "date": "2026-11-03",
+  "timezone": "America/Santo_Domingo",
+  "category": "puzles",
+  "tags": [
+    "Medidas",
+    "Trasvases",
+    "Sin prisas"
+  ],
+  "levels": 6,
+  "levelLabel": "amaneceres",
+  "duration": "10–20 min",
+  "status": "published",
+  "href": "https://mitchell-castillo.github.io/jarras-del-alba/",
+  "repository": "https://github.com/mitchell-castillo/jarras-del-alba",
+  "cover": "assets/cover.svg",
+  "storageKey": "daily-games:jarras-del-alba:v1",
+  "mechanic": "Llenar, vaciar y trasvasar agua entre jarras de capacidades distintas hasta conseguir todas las cantidades objetivo.",
+  "uniqueness": "Mecánica clásica distinta de las dieciséis entregas anteriores; seis retos seleccionados y comprobados mediante búsqueda exhaustiva independiente. No se afirma inventar la mecánica."
+}

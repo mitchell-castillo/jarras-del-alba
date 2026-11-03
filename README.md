@@ -16,7 +16,7 @@ Pulsa una jarra con agua y después otra para verter. Los botones Llenar y Vacia
 
 ## Estado de entrega
 
-**Preparación privada, no publicada.** No se ha creado repositorio, activado GitHub Pages ni añadido una entrada al catálogo. No hay URL pública de este juego. Pasaron 28 pruebas locales y los seis retos se completaron en Chrome de escritorio. También se revisaron anchuras de 320/390 px en iframes, sin afirmar pruebas móviles o táctiles reales. El alcance exacto y los límites se enumeran en QA.md. Cada juego conserva su repositorio independiente. La publicación pública está solicitada por Juan; este paquete aún no acredita repositorio creado ni GitHub Pages activo.
+**Publicado en GitHub Pages.** Repositorio independiente: https://github.com/mitchell-castillo/jarras-del-alba . Juego: https://mitchell-castillo.github.io/jarras-del-alba/ . Validación CI y primer despliegue completados correctamente. Pasaron 28 pruebas locales y seis retos en Chrome de escritorio antes de publicar. Las anchuras de 320/390 px se revisaron en iframe, no en móvil físico. Alcance detallado en QA.md.
 
 ## Persistencia
 
